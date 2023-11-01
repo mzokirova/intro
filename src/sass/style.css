@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans";
+  list-style: none;
+  background-color: #020A18;
+  text-decoration: none;
+}
+
+.wraper {
+  width: 70%;
+  margin: 0 auto;
+}
+
+p {
+  background: inherit;
+}
+
+ul li {
+  background: transparent;
+}
+
+a {
+  color: inherit;
+  background: inherit;
+}
+
+.my-pad {
+  padding: 5rem 0;
+}
+
+.flex-row {
+  display: flex;
+  align-items: center;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+header nav {
+  justify-content: space-between;
+  padding: 0.5rem 0;
+}
+header nav .logo {
+  gap: 20px;
+  color: #3A68B8;
+}
+header nav ul {
+  display: flex;
+  gap: 40px;
+}
+header nav ul li {
+  color: white;
+}
+header nav .my-btn {
+  background-color: #3A68B8;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border: none;
+}
+
+.shw-left {
+  width: 50%;
+  color: white;
+  text-align: left;
+  background: transparent;
+  gap: 20px;
+}
+.shw-left h4 {
+  color: #3A68B8;
+  text-transform: uppercase;
+  font-weight: 600;
+  background-color: inherit;
+}
+.shw-left h1 {
+  font-size: 3.4rem;
+  background-color: inherit;
+}
+.shw-left p {
+  color: var(--ffffff, #FFF);
+  background-color: inherit;
+}
+.shw-left .flex-row {
+  gap: 20px;
+  background-color: inherit;
+}
+.shw-left .flex-row button {
+  background-color: #3A68B8;
+  color: white;
+  padding: 0.5rem 0.8rem;
+  border-radius: 5px;
+  border: none;
+}
+
+.shw-right {
+  width: 50%;
+}
+
+.partners {
+  justify-content: space-between;
+  gap: 30px;
+  padding: 2rem 0;
+}
+
+.second {
+  justify-content: space-between;
+  gap: 20px;
+}
+.second .shw-right {
+  width: 60%;
+}
+.second .shw-right img {
+  width: 90%;
+}
+.second .shw-left {
+  width: 40%;
+}
+.second .shw-left h1 {
+  font-size: 2rem;
+}
+
+.swiper .swiper-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background-color: rgba(16, 26, 44, 0.9294117647);
+  padding: 1rem;
+  color: #FFF;
+  border-radius: 10px;
+}
+.swiper .swiper-slide img {
+  width: 30%;
+  opacity: 1;
+  background-color: transparent;
+}
+.swiper .swiper-slide h3 {
+  background: transparent;
+}
+.swiper .swiper-slide p {
+  background: transparent;
+}
+
+footer {
+  background: #0e1727;
+  color: #FFF;
+}
+footer .flex-row {
+  gap: 15px;
+}
+footer .cols {
+  background: inherit;
+  gap: 60px;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+footer .cols .col {
+  text-align: left;
+  gap: 20px;
+  background: inherit;
+}
+footer .cols .col img {
+  width: 25%;
+  background: transparent;
+}
+footer .cols .col .logo {
+  color: var(--3-a-68-b-8, #3A68B8);
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+footer .cols .col p {
+  color: var(--ffffff, #FFF);
+  opacity: 0.6;
+}
+footer .cols .col .flex-row {
+  background: transparent;
+}
+footer .cols .col h4 {
+  background: transparent;
+}
+footer .cols .col h3 {
+  text-transform: uppercase;
+  font-weight: 500;
+  background-color: transparent;
+}
+footer .cols .col ul {
+  background-color: #0e1727;
+  gap: 10px;
+}
+footer .cols .col ul li {
+  opacity: 0.6;
+}
+footer .cols .col ul li a {
+  font-size: 0.8rem;
+  text-transform: capitalize;
+  background-color: #0e1727;
+}
+footer .cols .col select {
+  color: #FFF;
+}/*# sourceMappingURL=style.css.map */
